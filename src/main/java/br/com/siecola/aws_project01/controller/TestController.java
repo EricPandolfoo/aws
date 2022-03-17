@@ -30,6 +30,8 @@ public class TestController {
 
     @GetMapping("/usuario/{id}")
     public Usuario getUsuarioById(@PathVariable("id") Long id) {
-        return new Usuario(1L, "Eric", 26);
+        Usuario eric = new Usuario(1L, "Eric", 26);
+        LOG.info("User {} retrieved.", eric);
+        return eric;
     }
 }
