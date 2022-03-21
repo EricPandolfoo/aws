@@ -2,8 +2,6 @@ package br.com.siecola.aws_project01.entity;
 
 import br.com.siecola.aws_project01.enums.EventType;
 
-import javax.persistence.Enumerated;
-
 public class Envelope {
 
     private EventType eventType;
