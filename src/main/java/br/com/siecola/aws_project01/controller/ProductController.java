@@ -1,6 +1,7 @@
 package br.com.siecola.aws_project01.controller;
 
 import br.com.siecola.aws_project01.entity.Product;
+import br.com.siecola.aws_project01.entity.UrlResponse;
 import br.com.siecola.aws_project01.enums.EventType;
 import br.com.siecola.aws_project01.exceptions.ProductNotFoundException;
 import br.com.siecola.aws_project01.repository.ProductRepository;
